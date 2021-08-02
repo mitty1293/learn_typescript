@@ -4,4 +4,4 @@ services:
         image: node:16.6.0-buster-slim
         container_name: sieve_ts
         volumes: 
-            - ./src:/app/src
+            - ./src:/usr/src
