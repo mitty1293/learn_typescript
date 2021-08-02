@@ -17,8 +17,7 @@ def validate(data: str) -> bool:
     return True
 
 def sieve(count: int) -> list:
-    natural: list = [True] * (count + 1)
-    natural[1] = False
+    natural: list = [False]*2 + [True]*(count-1)
     prime: list = []
     
     i: int = 2
