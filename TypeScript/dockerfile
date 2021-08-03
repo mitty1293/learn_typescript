@@ -1,8 +1,0 @@
-FROM node:16.6.0-buster-slim AS builder
-WORKDIR app
-COPY package.json package-lock.json ./
-RUN npm ci
-COPY tsconfig.json ./
-COPY ts/ ./ts/
-COPY dist/ ./dist/
-RUN npm run build
