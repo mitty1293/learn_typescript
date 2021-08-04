@@ -5,5 +5,5 @@ services:
         container_name: sieve_rust
         volumes: 
             - ./projects:/projects
-            working_dir: /projects
+        working_dir: /projects
         tty: true
