@@ -1,6 +1,6 @@
-export const sieve = (count: int): number[] => {
+const sieve = (count: number): number[] => {
     const natural: boolean[] = Array(count+1).fill(true).fill(false, 0, 2);
-    const prime: boolean[] = [];
+    const prime: number[] = [];
 
     for (var i = 2; i < Math.sqrt(count); i++) {
         if (natural[i]) {
@@ -17,3 +17,5 @@ export const sieve = (count: int): number[] => {
     }
     return prime;
 };
+
+console.log(sieve(parseInt(process.argv[2])).toString());
