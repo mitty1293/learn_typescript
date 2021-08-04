@@ -1,7 +1,7 @@
 version: "3.9"
 services: 
     rust:
-        image: rust:1.54.0-slim-buster
+        image: rust:1.54.0-buster
         container_name: sieve_rust
         volumes: 
             - ./src:/usr/src
