@@ -7,5 +7,8 @@ services:
             - ./projects:/projects
         working_dir: /projects
         tty: true
-        # environment: 
-        #     - USER_NAME=$(id -un)
+        environment: 
+            - USER_NAME
+            - USER_ID
+            - GROUP_NAME
+            - GROUP_ID
