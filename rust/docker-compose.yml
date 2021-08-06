@@ -7,7 +7,4 @@ services:
             - ./projects:/projects
         working_dir: /projects
         tty: true
-        environment: 
-            - USER_NAME
-            - USER_ID
-        command: sh setup.sh
+        user: ${USER_ID}:${GROUP_ID}
