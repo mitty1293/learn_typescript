@@ -10,5 +10,4 @@ services:
         environment: 
             - USER_NAME
             - USER_ID
-            - GROUP_NAME
-            - GROUP_ID
+        command: sh setup.sh
