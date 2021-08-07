@@ -7,3 +7,12 @@ $ python sieve.py 100
 ```
 $ node sieve.js 100
 ```
+## Rust
+### build container
+```
+$ sh setup.sh
+```
+### run sieve
+```
+$ aaa
+```
