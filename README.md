@@ -4,6 +4,8 @@
 $ python sieve.py 100
 ```
 ## TypeScript
+コンパイルは `su node` でユーザ切り替えしてから行うこと。
+マウントしたvolumeにpermissionがなくなってしまうため。
 ```
 $ node sieve.js 100
 ```
