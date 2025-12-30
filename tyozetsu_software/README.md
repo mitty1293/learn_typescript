@@ -3,5 +3,9 @@
 
 コード類はディレクトリを分けてその中にコードを入れていく.
 
+```
+npm run tsc -v
+```
+
 参考：https://github.com/kattsun44/chozetsu-book
 参考2:https://github.com/blue32a-sandbox/chozetsu-book
